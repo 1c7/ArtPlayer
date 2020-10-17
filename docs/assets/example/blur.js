@@ -1,3 +1,5 @@
+// 用 layer 来 blur？
+
 var art = new Artplayer({
     container: '.artplayer-app',
     url: '/assets/sample/video.mp4',

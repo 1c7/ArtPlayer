@@ -24,9 +24,13 @@ import Storage from './storage';
 import Plugins from './plugins';
 import Mobile from './mobile';
 
+// 应该是这里开始的
+// 初始化之后的下一步没看到在哪里
+
 let id = 0;
 const instances = [];
 export default class Artplayer extends Emitter {
+    // 初始化
     constructor(option) {
         super();
         this.option = validator(utils.mergeDeep(Artplayer.option, option), scheme);
